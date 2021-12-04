@@ -2,13 +2,12 @@ import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
-    <div className="">
-      <main className="bg-gray-300">
+    <div className="bg-black h-screen overflow-hidden">
+      <main className="">
         <Sidebar/>
         {/* Center */}
       </main>
       
-      {/* Footer */}
       {/* Player */}
     </div>
   )
