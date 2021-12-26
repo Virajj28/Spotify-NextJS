@@ -6,9 +6,11 @@ function login({providers}) {
             {/* <h1>This is a login page</h1> */}
             <img className="w-52 mb-5" src="https://links.papareact.com/9xl" alt="img" />
 
-            {Object.values(providers).map((provider) => (
-                <div>
-                    <button>Login with {provider.name}</button>
+            {Object.values(providers).map(provider => (
+                <div key={provider.name}>
+                    <button>
+                        Login with {provider.name}
+                    </button>
                 </div>
             ))}
         </div>
